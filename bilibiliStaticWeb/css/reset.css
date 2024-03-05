@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.clearfix {
+  overflow: hidden;
+}
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.dp_top,
+.dp_mid,
+.dp_btm {
+  display: inline-block;
+}
+.dp_top {
+  vertical-align: top;
+}
+.dp_mid {
+  vertical-align: middle;
+}
+.dp_btm {
+  vertical-align: bottom;
+}
+a {
+  /* 去掉默认的下划线 */
+  text-decoration: none;
+}
+input {
+  outline: none;
+  /* outline:0; */
+}
+.bd {
+  border: solid 1px #000;
+}
+.bw {
+  box-shadow: 0 0 2px #000;
+}
+.wh_mg {
+  margin: 100px;
+}
+body {
+  /* user-select:是否能选取元素的文本 */
+  user-select: none;
+  /* 为了适配不同浏览器，我们需要加上对应的前缀 */
+  /* -webkit- 谷歌，Safari */
+  -webkit-user-select: none;
+  /* -moz- 火狐浏览器 */
+  -moz-user-select: none;
+  /* -o- 欧朋浏览器 */
+  -o-user-select: none;
+  /* -ms- ie 浏览器 */
+  -ms-user-select: none;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.dp_ib {
+  display: inline-block;
+}
+.dp_b {
+  display: block;
+}

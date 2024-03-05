@@ -1,0 +1,240 @@
+.bw {
+  box-shadow: 0 0 0 #000;
+}
+.whole {
+  width: 100%;
+  height: 700px;
+  margin: 100px auto;
+}
+main {
+  padding: 10px;
+}
+.box_hd {
+  margin-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+}
+.flex {
+  flex-flow: row nowrap;
+}
+.bg_w {
+  background-color: #fff;
+}
+.box_mobile_hd {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 20;
+}
+.box_hdhd {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 10px 10px #0000000f;
+  border-bottom: solid 1px #0000000f;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.font_hd {
+  font-size: 10px;
+  margin-top: 15px;
+  color: #666;
+}
+.box_hdhd_left {
+  width: 100px;
+  height: 100px;
+}
+.box_hdhd_right {
+  width: 300px;
+  height: 100%;
+  justify-content: space-around;
+}
+.box_hdhd_left a,
+.box_hdhd_right a {
+  color: #000;
+}
+.search {
+  width: 100px;
+  height: 30px;
+  margin-top: -5px;
+}
+.ip_tx {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+a:hover,
+a,
+a:active,
+a:visited,
+a:link {
+  text-decoration: none;
+}
+.font_ca_bilibili {
+  background: url("../images/QQ截图20220815101759.png") no-repeat;
+  width: 90px;
+  height: 80px;
+  background-size: 80px;
+  background-position: 5px 5px;
+}
+.icon_search {
+  background: url("../images/xiaolian.png") no-repeat;
+  background-size: 20px;
+  padding-left: 22px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  color: #000;
+  background-position: 0px 4px;
+}
+.de_login {
+  width: 30px;
+  height: 30px;
+  background: url("../images/login.png@48w_48h_1c.png") no-repeat;
+  background-size: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-default {
+  background-color: #fb7299;
+  color: #fff;
+  outline: none;
+  width: 70px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding-bottom: 25px;
+  padding-left: 6px;
+}
+.btn-default:hover {
+  background-color: #fb7299;
+  color: #fff;
+}
+.top {
+  width: 100%;
+  height: 48px;
+}
+.btm {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin-top: 48px;
+  padding: 10px 10px 0 10px;
+}
+.btm_more {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url("../images/xiangxiazhanhang.png") no-repeat;
+  background-size: 1.5rem;
+  background-position: 0px 0px;
+}
+.col-xs-6 {
+  padding: 0px 7px;
+}
+.fix_download {
+  position: fixed;
+  top: 90%;
+  left: 10%;
+  width: 80%;
+  height: 5%;
+  background: #fb7299 url("../images/QQ截图20220815114118.png") no-repeat;
+  background-size: 50px;
+  background-position: 10px 0px;
+  border-radius: 4rem;
+  color: #fff;
+  padding: 4px 0px 0px 63px;
+}
+.pr_btm_right_box {
+  height: 15rem;
+}
+.pr_img_one,
+.pr_img_two,
+.pr_img_three,
+.pr_img_four,
+.pr_img_five,
+.pr_img_six,
+.pr_img_seven,
+.pr_img_eight {
+  width: 100%;
+  height: 60%;
+  background: url("../images/mobile_img01.jpg") no-repeat;
+  background-size: 104% 100%;
+  background-position: -7px 0px;
+  border-radius: 3px;
+  position: relative;
+}
+.pr_img_two {
+  background: url("../images/mobile_img02.jpg") no-repeat;
+  background-size: cover;
+  background-position: -7px 0px;
+}
+.pr_img_three {
+  background: url("../images/mobile_img03.jpg") no-repeat;
+  background-size: cover;
+  background-position: -7px 0px;
+}
+.pr_img_four {
+  background: url("../images/mobile_img04.jpg") no-repeat;
+  background-size: cover;
+  background-position: -7px 0px;
+}
+.pr_img_five {
+  background: url("../images/mobile_img05.jpg") no-repeat;
+  background-size: cover;
+}
+.pr_img_six {
+  background: url("../images/mobile_img09.jpg") no-repeat;
+  background-size: cover;
+}
+.pr_img_seven {
+  background: url("../images/mobile_img06.jpg") no-repeat;
+  background-size: cover;
+}
+.pr_img_eight {
+  background: url("../images/mobile_img07.jpg") no-repeat;
+  background-size: cover;
+  background-position: -7px 0px;
+}
+.pr_img_nine {
+  background: url("../images/mobile_img08.jpg") no-repeat;
+  background-size: cover;
+}
+.pr_img_ten {
+  background: url("../images/mobile_img10.jpg") no-repeat;
+  background-size: cover;
+}
+.pr_img_one_inf {
+  width: 100%;
+  height: 40%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.pr_img_one_inf_vst {
+  color: #fff;
+  top: 20px;
+  width: 80px;
+  height: 20px;
+  font-size: 10px;
+}
+.pr_img_one_inf_vst_two {
+  font-size: 10px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+}
+.pr_img_one_sub {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px 0px 0;
+  font-size: 10px;
+}
